@@ -1,48 +1,24 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Nimble (7.3.4)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - testFramework (0.1.0)
+  - testFramework (0.1.2):
+    - Quick (~> 1.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 7.0)
-  - Nimble-Snapshots (~> 6.3.0)
   - Quick (~> 1.2.0)
-  - testFramework (from `https://github.com/waitWindComing/testFramework.git`)
+  - testFramework (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
     - Quick
 
 EXTERNAL SOURCES:
   testFramework:
-    :git: https://github.com/waitWindComing/testFramework.git
-
-CHECKOUT OPTIONS:
-  testFramework:
-    :commit: 862fc07da069e58a22b90b762246d333346589e8
-    :git: https://github.com/waitWindComing/testFramework.git
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  testFramework: 9da6a4af695d1c78ad3661672b9dd7b2daab199c
+  testFramework: 18a1c4f5f094e2e074fea916c68e43d6a1e2f00c
 
-PODFILE CHECKSUM: a91d981cfdcdbd062552d82ca9bd7e87c2124231
+PODFILE CHECKSUM: dbda05d03d4ed5be9be407652682d6b7cfdc11e4
 
 COCOAPODS: 1.8.4

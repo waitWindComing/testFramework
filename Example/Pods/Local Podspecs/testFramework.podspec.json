@@ -1,7 +1,8 @@
 {
   "name": "testFramework",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "总结",
+  "swift_versions": "4.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/waitWindComing/testFramework",
   "license": {
@@ -13,10 +14,20 @@
   },
   "source": {
     "git": "https://github.com/waitWindComing/testFramework.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "testFramework/Classes/**/*"
+  "source_files": "testFramework/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Quick": [
+      "~> 1.2.0"
+    ]
+  },
+  "swift_version": "4.0"
 }

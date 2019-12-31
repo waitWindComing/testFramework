@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testFramework'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '总结'
   s.swift_version = '4.0'
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,5 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit', 'Foundation'
   
    s.dependency 'Quick', '~> 1.2.0'
-   s.dependency 'Nimble', '~> 7.0'
-   s.dependency 'FBSnapshotTestCase' , '~> 2.1.4'
-   s.dependency 'Nimble-Snapshots' , '~> 6.3.0'
+   
 end

@@ -9,8 +9,23 @@ target 'testFramework_Example' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0'
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'Nimble-Snapshots' , '~> 6.3.0'
   end
+  
+  # Swift 版本声明
+  post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          if ['Quick'].include? target.name
+              target.build_configurations.each do |config|
+                  config.build_settings['SWIFT_VERSION'] = '5.0'
+                  config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+              end
+              else
+              target.build_configurations.each do |config|
+                  config.build_settings['SWIFT_VERSION'] = '4.0'
+                  config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+              end
+          end
+      end
+  end
+
 end
