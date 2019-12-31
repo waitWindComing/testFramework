@@ -1,24 +1,24 @@
 PODS:
-  - Quick (1.2.0)
-  - testFramework (0.1.2):
-    - Quick (~> 1.2.0)
+  - HandyJSON (5.0.1)
+  - testFramework (0.1.4):
+    - HandyJSON
 
 DEPENDENCIES:
-  - Quick (~> 1.2.0)
+  - HandyJSON
   - testFramework (from `../`)
 
 SPEC REPOS:
-  trunk:
-    - Quick
+  https://github.com/CocoaPods/Specs.git:
+    - HandyJSON
 
 EXTERNAL SOURCES:
   testFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  testFramework: 18a1c4f5f094e2e074fea916c68e43d6a1e2f00c
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  testFramework: ab77d6e0b64ff345baf981b974ab33ceda133b8d
 
-PODFILE CHECKSUM: dbda05d03d4ed5be9be407652682d6b7cfdc11e4
+PODFILE CHECKSUM: 43a0efa05f4d1bec5a6d7ca6c10a75e048583786
 
 COCOAPODS: 1.8.4
