@@ -37,6 +37,11 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+   s.frameworks = 'UIKit', 'Foundation'
+  
+   s.dependency 'Quick', '~> 1.2.0'
+   s.dependency 'Nimble', '~> 7.0'
+   s.dependency 'FBSnapshotTestCase' , '~> 2.1.4'
+   s.dependency 'Nimble-Snapshots' , '~> 6.3.0'
 end

@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'testFramework_Example' do
   pod 'testFramework', :path => '../'
+  #远程源码依赖
+#  pod 'testFramework', :git => 'https://github.com/waitWindComing/testFramework.git'
 
   target 'testFramework_Tests' do
     inherit! :search_paths

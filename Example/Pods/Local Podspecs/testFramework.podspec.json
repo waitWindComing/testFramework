@@ -1,9 +1,9 @@
 {
   "name": "testFramework",
   "version": "0.1.0",
-  "summary": "A short description of testFramework.",
+  "summary": "总结",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yumanjiang/testFramework",
+  "homepage": "https://github.com/waitWindComing/testFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yumanjiang": "wwindcoming@163.com"
   },
   "source": {
-    "git": "https://github.com/yumanjiang/testFramework.git",
+    "git": "https://github.com/waitWindComing/testFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
